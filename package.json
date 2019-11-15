@@ -1,0 +1,20 @@
+{
+  "name": "Emitter",
+  "version": "1.0.0",
+  "description": "EventEmitter for usage in other environments than nodejs - no process.nextTick needed",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest --watch-all",
+    "build": "tsc"
+  },
+  "keywords": ["EventEmitter", "polyfill"],
+  "author": "Samuel Ueberle",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.7",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  }
+}
